@@ -1,38 +1,122 @@
-.App {
-  text-align: center;
+.Nav_style{
+    background-color:#3A0063;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.links{
+    text-decoration: none;
+    color: #ffc107;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.links:hover{
+    color: white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.banner_image{
+    height: 250px ;
+    width: 350px;
 }
 
-.App-link {
-  color: #61dafb;
+.header-container{
+    background-color: #ffc107;
+    color: #3A0063;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.con_main{
+    margin: 0;
+    padding: 0%;
+}
+
+.banner-body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sub_head{
+    background-color: #3A0063;
+    color: #ffc107;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 2px;
+    margin-bottom: 10px;
+}
+
+.img-fluid{
+    height: 200px;
+    width: 270px;
+}
+
+.bucket_img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 3px solid #ffc107;
+}
+
+.bucket_container{
+    display: flex;
+    justify-content: start;
+}
+
+.cart_main{
+    border: 3px solid #3A0063;
+    border-radius: 25px;
+    text-align: center;
+    color: #3A0063;
+    margin-top: 10px;
+}
+
+.header_main{
+    text-align: center;
+}
+
+.main_card{
+    display: flex;
+    justify-content: start;
+}
+
+.quantity{
+    display: flex;
+}
+
+.quantity_box{
+    height: 25px;
+    width: 30px;
+    background-color: #ffc107;
+    text-align: center;
+}
+
+.quantity_hold{
+    height: 25px;
+    width: 30px;
+    background-color: white;
+    border: 1px solid #ffc107;
+    text-align: center;
+}
+.action{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main_card{
+    border: 2px solid #ffc107;
+    border-radius: 25px;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.list_arranger{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list_name{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.head_table{
+    text-align: center;
 }
